@@ -1,0 +1,91 @@
+/* css for container */
+.container {
+    display: flex;
+}
+
+.menu-icon {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+    position: fixed;
+    z-index: 1;
+}
+
+.content-list {
+    margin-top: 40px;
+    width: 200px;
+    background-color: #f0f0f0;
+    height:100vh;
+    position: fixed;
+    transition: transform 0.3s;
+    transform: translateX(0);
+}
+
+
+.content-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content-list li {
+    cursor: pointer;
+    margin-top: 20px;
+}
+.content-list li:hover{
+    background-color: #989595;
+    color:white;
+}
+
+.content-display {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+    transition: margin 0.3s;
+}
+
+.content {
+    display: none;
+    margin-left: 20px;
+}
+.content h1{
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/* css for navbar */
+
+    /* Hide all sections by default */
+    div[id^="section"] {
+        display: none;
+    }
+    
+    /* Style your navbar */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline;
+        margin-right: 30px;
+
+    }
+    
+    nav a {
+        text-decoration: none;
+    }
+
+    nav a:hover{
+        background-color: #989595;
+        color:white;
+    }
+
+
+
+ 
