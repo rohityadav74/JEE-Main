@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE Syllabus Analysis</title>
+
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        color: black;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+    body {
+        height: 100vh;
+    }
+
+    /* css grid for container */
+    .container {
+        display: grid;
+        height: 100vh;
+        grid-gap: 0.1rem;
+        color: white;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.1fr 2fr 0.1fr;
+        grid-template-areas:
+            "main main main"
+            "box1 box2 box3"
+            "footer footer footer"
+            /* text-align: center; */
+            /* font-size: 1.2rem; */
+    }
+
+    /* defining grid area */
+    main {
+        background-color: antiquewhite;
+        grid-area: main;
+    }
+    .logo span{
+        font-size: 3rem;
+    }
+    .logo img{
+        margin-top: 10px;
+        margin-right:10px;
+    }
+
+    .box1 {
+        background-color: antiquewhite;
+        grid-area: box1;
+    }
+
+    .box2 {
+        background-color: antiquewhite;
+        grid-area: box2;
+    }
+
+    .box3 {
+        background-color: antiquewhite;
+        grid-area: box3;
+    }
+
+    footer {
+        background-color: antiquewhite;
+        grid-area: footer;
+        text-align: center;
+    }
+
+    /* logo */
+    .logo {
+        display:inline-block;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    h1{
+        margin-top: 10px;
+    }
+    h2 {
+        margin-top: 20px;
+    }
+
+
+    /* box css */
+
+    .box1 {
+        text-align: center;
+    }
+
+    .box1 ul {
+        margin-top: 20px;
+    }
+
+    .box1 ul li {
+        list-style: none;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .box2 {
+        text-align: center;
+        color: white;
+    }
+
+    .box2 ul {
+        margin-top: 20px;
+    }
+
+    .box2 ul li {
+        list-style: none;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .box3 {
+        text-align: center;
+        color: rgb(183, 174, 174);
+
+    }
+
+    .box3 ul {
+        margin-top: 20px;
+    }
+
+    .box3 ul li {
+        list-style: none;
+        list-style: none;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    details{
+        margin-top: 20px;
+    }
+    summary{
+        cursor: pointer;
+    }
+
+
+    /* for phone view */
+    @media only screen and (max-width:600px) {
+        .container {
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.1fr 1fr 1fr 1fr 0.1fr;
+            grid-template-areas: "main" "box1" "box2" "box3" "footer";
+            height: 100vh;
+            grid-gap: 0.1rem;
+            background-color: antiquewhite;
+            font-size: 1.5rem;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <main class="logo">
+              <a href="index.html"><img src="back.jpg" height="50px"></a> 
+                <span>JEE Syllabus Analysis</span>         
+        </main>
+
+
+        <div class="box1">
+            <h1>Physics</h1>
+            <ul>
+
+
+                <details>
+                    <summary>
+                        Mechanics 1:
+                    </summary>
+
+                    <li><a href="#">Unit and dimension</a></li>
+
+
+                    <li><a href="#">Motion</a></li>
+
+
+                    <li><a href="#">Force,</a></li>
+
+
+                    <li><a href="#">work Entegy</a></li>
+
+
+                    <li><a href="#">circular Motion</a></li>
+
+
+                    <li><a href="#">Gravitation</a></li>
+
+                </details>
+
+
+
+
+                <details>
+                    <summary>
+                        Mechanics 2:
+                    </summary>
+
+                    <li><a href="#">centre of mass</a></li>
+
+
+                    <li><a href="#">rotational motion</a></li>
+
+                </details>
+
+                <details>
+                    <summary>
+                        Waves & SHM:
+                    </summary>
+
+                    <li><a href="#">Oscillation</a></li>
+
+
+                    <li><a href="#">Waves</a></li>
+
+                </details>
+
+
+
+
+                <details>
+                    <summary>mechanical properties of matters:
+
+                    </summary>
+
+                    <li><a href="#">elasticity and viscocity</a></li>
+
+
+                    <li><a href="#">fluid mechanics</a></li>
+
+
+                    <li><a href="#">surface tension</a></li>
+
+                </details>
+
+
+
+                <details>
+                    <summary>Thermal properties of matters:
+
+                    </summary>
+
+                    <li><a href="#">thermal expansion and calorimetory</a></li>
+
+
+                    <li><a href="#">heat transfer</a></li>
+
+
+                    <li><a href="#">ktg and thermodynamics</a></li>
+
+                </details>
+
+
+
+
+                <details>
+                    <summary>Electro:
+
+                    </summary>
+
+                    <li><a href="#">charge and electric field</a></li>
+
+                    <li><a href="#">electric potential</a></li>
+
+                    <li><a href="#">capacitor</a></li>
+
+                    <li><a href="#">current</a></li>
+
+                </details>
+
+                <details>
+                    <summary>Magnetism:
+
+                    </summary>
+
+                    <li><a href="#">Matter and Magnetism</a></li>
+
+
+                    <li><a href="#">Moving charge Magnetism</a></li>
+
+                    <li><a href="#">EMI</a></li>
+
+                    <li>chapter4</li>
+                    <li><a href="#">AC</a></li>
+
+                    <li>chapter5</li>
+                    <li><a href="#">EM Wave</a></li>
+
+                </details>
+
+                <details>
+                    <summary>Optics:
+
+                    </summary>
+
+                    <li><a href="#">Ray optics and instruments</a></li>
+
+                    <li><a href="#">Wave optics</a></li>
+
+                </details>
+
+                <details>
+                    <summary>Modern Physics:
+
+                    </summary>
+
+                    <li><a href="#">Dual Nature</a></li>
+
+                    <li><a href="#">Atoms</a></li>
+
+                    <li><a href="#">Nuclei</a></li>
+
+                    <li><a href="#">Semiconductor</a></li>
+
+                </details>
+
+            </ul>
+        </div>
+
+
+
+        <div class="box2">
+            <h1>Chemistry</h1>
+            <ul>
+                <h2>Physical chemistry:</h2>
+
+                <details>
+                    <summary>chapter from class 11th:
+
+                    </summary>
+
+                    <li><a href="#">mole</a></li>
+
+                    <li><a href="#">atomic str</a></li>
+
+                    <li><a href="#"> gas st</a></li>
+
+                    <li><a href="#">TD</a></li>
+
+              
+                    <li><a href="#">equim</a></li>
+
+                </details>
+
+
+                <details>
+                    <summary>chapter from class 12th:
+
+                    </summary>
+
+                    <li><a href="#">solid st,</a></li>
+
+
+                    <li><a href="#">electrochem</a></li>
+
+
+                    <li><a href="#">chem kinetics</a></li>
+
+
+                    <li><a href="#">surface chem</a></li>
+
+                    <li><a href="#">Notes</a></li>
+
+                </details>
+
+
+                <h2>Inorgainc chemistry:</h2>
+
+                <details>
+                    <summary>chapter from class 11th:
+
+                    </summary>
+
+                    <li><a href="#">chem bond</a></li>
+
+
+                    <li><a href="#">pt</a></li>
+
+
+                    <li><a href="#">s-block</a></li>
+
+
+                    <li><a href="#">p-block(13,14)</a></li>
+
+                </details>
+
+                <details>
+                    <summary>chapter from class 12th:
+
+                    </summary>
+
+                    <li><a href="#">p-block(15 to 18)</a></li>
+
+
+                    <li><a href="#">metallurgy</a></li>
+
+
+                    <li><a href="#">d&f block</a></li>
+
+
+                    <li><a href="#">coord comp</a></li>
+
+
+                    <li><a href="#">qualitative analysis</a></li>
+
+                </details>
+
+                <h2>Organic chemistry:</h2>
+
+                <details>
+                    <summary>chapter from class 11th:
+
+                    </summary>
+
+                    <li><a href="#">Basic org chem</a></li>
+
+
+                    <li><a href="#">hydrocarbons</a></li>
+
+
+                    <li><a href="#">env chem</a></li>
+
+
+                </details>
+
+                <details>
+                    <summary>
+                        chapter from class 12th:
+                    </summary>
+
+                    <li><a href="#">Haloalkane & haloarene</a></li>
+
+                    <li><a href="#">alcohol</a></li>
+
+                    <li><a href="#">phenol&ethers</a></li>
+
+                    <li><a href="#">carbonyl comp,ald,ket&carbox acid, Amines</a></li>
+
+                    <li><a href="#">Biomolecules</a></li>
+
+
+                    <li><a href="#">Polymers</a></li>
+
+
+                    <li><a href="#">chem in everyday life</a></li>
+
+                </details>
+
+
+            </ul>
+        </div>
+
+
+
+
+
+        <div class="box3">
+            <h1>Mathematics</h1>
+            <ul>
+
+
+                <details>
+                    <summary>Sets and function:
+
+                    </summary>
+
+                    <li><a href="#">set</a></li>
+
+
+                    <li><a href="#">relation and function</a></li>
+
+                    <li><a href="#">trigonometric function</a></li>
+
+                    <li><a href="#">Inverse trigonometric function</a></li>
+
+
+                </details>
+
+                <details>
+                    <summary>
+                        Algebra:
+                    </summary>
+
+                    <li><a href="#">PMI</a></li>
+
+                    <li><a href="#">complex number</a></li>
+
+                    <li><a href="#">Quadratic eqn</a></li>
+
+                    <li><a href="#">Linear ineq</a></li>
+
+                    <li><a href="#">Seq & series</a></li>
+
+                    <li><a href="#">BT</a></li>
+
+                    <li><a href="#">M&D</a></li>
+
+                </details>
+
+
+
+
+                <details>
+                    <summary>
+                        coordinate geometry:
+                    </summary>
+
+                    <li><a href="#">st line</a></li>
+
+                    <li><a href="#">conic section</a></li>
+
+                    <li><a href="#">vector</a></li>
+
+                    <li><a href="#">3-D</a></li>
+
+
+                </details>
+
+                <details>
+                    <summary>
+                        Differential calculus:
+                    </summary>
+
+                    <li><a href="#">limit</a></li>
+
+                    <li><a href="#">continuity & derivative</a></li>
+
+                    <li><a href="#">app of derivative</a></li>
+
+
+                </details>
+
+                <details>
+                    <summary>
+                        Integral calculus:
+                    </summary>
+
+                    <li><a href="#">Integration</a></li>
+
+                    <li><a href="#">Area under curve</a></li>
+
+                    <li><a href="#">Differential equation</a></li>
+
+
+
+                </details>
+
+                <details>
+                    <summary>
+                        Others:
+                    </summary>
+
+                    <li><a href="#">Mathematical reasoning</a></li>
+
+                    <li><a href="#">statistics</a></li>
+
+                    <li><a href="#">probability</a></li>
+
+
+                    <li><a href="#">Linear programming</a></li>
+
+
+                </details>
+
+
+            </ul>
+        </div>
+        <footer class="footer">
+            <p>
+                © 2023 Copyright:
+                <a href="#">sunroacademy.com</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
